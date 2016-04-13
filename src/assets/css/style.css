@@ -12,6 +12,9 @@ body {
     text-shadow: 2px 3px 3px #000;
 }
 
+.post-card-container {
+    margin-top: 20px !important;
+}
 .jtxt {
     text-align: justify;
 }
