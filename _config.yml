@@ -25,7 +25,7 @@ markdown: kramdown
 permalink: /:categories/:title
 source: src
 destination: serve
-
+comments: true
 port: 4002
 
 gems:
