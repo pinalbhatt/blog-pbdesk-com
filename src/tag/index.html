@@ -1,0 +1,19 @@
+---
+layout: gateway
+---
+<h2 class="page-header h2-responsive">
+    Learning endeavor for ever...<br/>
+    <small>from the desk of Pinal Bhatt</small>
+</h2>
+
+<h3 class="h3-responsive">
+    Featured Posts
+    <small><a href="/all-posts">All Posts</a></small>
+</h3>
+
+<ul id="filters">
+    <li><a href="#" data-filter="*" class="btn btn-primary">All</a></li>
+    {% for tag in site.tags %}
+    <li><a href="#" data-filter=".cus{{tag[0]}}" class="btn btn-primary">{{ tag[0] }} </a></li>
+    {% endfor %}
+</ul>
