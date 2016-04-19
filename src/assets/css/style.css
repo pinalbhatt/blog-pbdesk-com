@@ -15,6 +15,7 @@ body {
 .post-card-container {
     margin-top: 20px !important;
 }
+
 .jtxt {
     text-align: justify;
 }
@@ -106,12 +107,10 @@ p {
     z-index: 10;
 }
 
-
 .carousel-inner,
 .carousel-inner .item {
     height: 100%;
 }
-
 
 .page-content {
     margin-top: 40px;
@@ -383,13 +382,11 @@ p {
     background-size: cover;
 }
 
-
 .item:nth-child(5) {
     background-image: url(../img/carousel/5.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 p {
     font-size: 16px;
@@ -470,16 +467,15 @@ p {
     height: 100%;
 }
 
-
-.social a i{
-    display:inline-block;
-    width:40px;
-    height:40px;
-    font-size:16px;
-    line-height:40px;
-    text-decoration:none;
-    text-align:center;
-    color:#fff;
+.social a i {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
     -webkit-transition: all 1.5s ease;
     -moz-transition: all 1.5s ease;
     -ms-transition: all 1.5s ease;
@@ -494,26 +490,42 @@ p {
     border-radius: 50px;
 }
 
-.social a.facebook i{
-    background:#1e78ae;
+.social a.facebook i {
+    background: #1e78ae;
 }
 
-.social a.twitter i{
-    background:#1ba1e2;
+.social a.twitter i {
+    background: #1ba1e2;
 }
 
-.social a.google-plus i{
-    background:#f22d0c;
+.social a.google-plus i {
+    background: #f22d0c;
 }
 
-.social a.linkedin i{
-    background:#2d93cf;
+.social a.linkedin i {
+    background: #2d93cf;
 }
 
-.social a.pinterest i{
-    background:#dd1617;
+.social a.pinterest i {
+    background: #dd1617;
 }
 
-.social a:hover i{
-    background:#000;
+.social a:hover i {
+    background: #000;
+}
+
+.video-container-responsive {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.video-container-responsive iframe, .video-container-responsive object, .video-container-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
