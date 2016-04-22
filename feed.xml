@@ -6,9 +6,44 @@
 </description>
     <link>http://blog.pbdesk.com/</link>
     <atom:link href="http://blog.pbdesk.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Apr 2016 12:23:22 -0400</pubDate>
-    <lastBuildDate>Thu, 14 Apr 2016 12:23:22 -0400</lastBuildDate>
+    <pubDate>Fri, 22 Apr 2016 16:43:00 -0400</pubDate>
+    <lastBuildDate>Fri, 22 Apr 2016 16:43:00 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>AngularFire2 With Angular2 - Meetup Video</title>
+        <description>&lt;p&gt;
+    Are you into Angular2 and Firebase? Then here is one really nice video from April,2016 Angular Meetup.
+&lt;/p&gt;
+
+&lt;p&gt;It includes Lightning Talks on &lt;b&gt;SystemJS loader demystified&lt;/b&gt; by &lt;em&gt;Rob Wormald&lt;/em&gt; and &lt;b&gt;Hot Reloading Angular&lt;/b&gt; by &lt;em&gt;Patrick Stapleton&lt;/em&gt; &lt;/p&gt;
+&lt;p&gt;And&lt;/p&gt;
+&lt;p&gt;Demo and talk on &lt;b&gt;AngularFire for Angular 2&lt;/b&gt; by Google Angular Core team members &lt;em&gt;David East&lt;/em&gt; (@_davideast) and &lt;em&gt;Jeff Cross&lt;/em&gt; (@jeffbcross) &lt;br/&gt;
+   David East and Jeff Cross, the self-proclaimed &quot;Dynamic Duo&quot; of Firebase and Angular, share what they and other contributors have been building to make Firebase and Angular 2 a powerful, seamless stack for building mobile applications.&lt;/p&gt;
+
+&lt;div class=&quot;video-container-responsive&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&#39;https://www.youtube.com/embed//ngnSOTSS8Q8&#39; frameborder=&#39;0&#39; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;Original Video on &lt;a href=&quot;https://youtu.be/ngnSOTSS8Q8&quot; target=&quot;_blank&quot;&gt;Youtube&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Thu, 14 Apr 2016 17:30:08 -0400</pubDate>
+        <link>http://blog.pbdesk.com/angular/AngularFire2-Angular2-Video</link>
+        <guid isPermaLink="true">http://blog.pbdesk.com/angular/AngularFire2-Angular2-Video</guid>
+        
+        <category>Angular2</category>
+        
+        <category>AngularFire2</category>
+        
+        <category>Firebase</category>
+        
+        
+        <category>Angular</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll! Html</title>
@@ -374,23 +409,6 @@ SmtpServer.Send(mail);
         <category>NTVS</category>
         
         <category>VS2013</category>
-        
-        
-        <category>NodeJS</category>
-        
-      </item>
-    
-      <item>
-        <title>Node.JS: Tutorials &amp; Resources</title>
-        <description>&lt;p&gt;Node.JS is getting very popular now a days and i have also started enjoying this new breeze.&lt;/p&gt;
-&lt;p&gt;Here are my recent tweets regarding NodeJS.&lt;/p&gt;
-&lt;a class=&quot;twitter-timeline&quot; href=&quot;https://twitter.com/search?q=%23NodeJS%20from%3APBDesk&quot; data-widget-id=&quot;594221529363263488&quot;&gt;Tweets about #NodeJS from:PBDesk&lt;/a&gt;
-</description>
-        <pubDate>Sat, 05 Jul 2014 08:11:00 -0400</pubDate>
-        <link>http://blog.pbdesk.com/nodejs/nodejs-news-update</link>
-        <guid isPermaLink="true">http://blog.pbdesk.com/nodejs/nodejs-news-update</guid>
-        
-        <category>NodeJS</category>
         
         
         <category>NodeJS</category>
