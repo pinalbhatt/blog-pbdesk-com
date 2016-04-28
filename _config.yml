@@ -26,6 +26,7 @@ source: src
 destination: serve
 comments: true
 port: 4002
-
+category_archive:
+  path: categories
 gems:
   - jekyll-gist
