@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.pbdesk.com/</link>
     <atom:link href="http://blog.pbdesk.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Apr 2016 16:14:36 -0400</pubDate>
-    <lastBuildDate>Tue, 26 Apr 2016 16:14:36 -0400</lastBuildDate>
+    <pubDate>Thu, 28 Apr 2016 07:30:43 -0400</pubDate>
+    <lastBuildDate>Thu, 28 Apr 2016 07:30:43 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -41,7 +41,7 @@
         <category>Firebase</category>
         
         
-        <category>Angular</category>
+        <category>angular</category>
         
       </item>
     
@@ -77,7 +77,7 @@
         <category>Tutorial</category>
         
         
-        <category>NodeJS</category>
+        <category>nodejs</category>
         
       </item>
     
@@ -117,7 +117,7 @@
         <category>WebAPI</category>
         
         
-        <category>MVC6</category>
+        <category>mvc6</category>
         
       </item>
     
@@ -188,7 +188,7 @@
         <category>WebAPI</category>
         
         
-        <category>MVC6</category>
+        <category>mvc6</category>
         
       </item>
     
@@ -256,7 +256,7 @@ SmtpServer.Send(mail);
         <category>CodeSnippet</category>
         
         
-        <category>Programming</category>
+        <category>programming</category>
         
       </item>
     
@@ -288,7 +288,7 @@ SmtpServer.Send(mail);
         <category>Programming</category>
         
         
-        <category>NodeJS</category>
+        <category>nodejs</category>
         
       </item>
     
@@ -304,7 +304,7 @@ SmtpServer.Send(mail);
         <category>Programming</category>
         
         
-        <category>Programming</category>
+        <category>programming</category>
         
       </item>
     
@@ -335,7 +335,7 @@ SmtpServer.Send(mail);
         <category>VS2013</category>
         
         
-        <category>NodeJS</category>
+        <category>nodejs</category>
         
       </item>
     
@@ -352,7 +352,7 @@ SmtpServer.Send(mail);
         <category>NodeJS</category>
         
         
-        <category>NodeJS</category>
+        <category>nodejs</category>
         
       </item>
     
@@ -369,8 +369,8 @@ SmtpServer.Send(mail);
 &lt;p style=&quot;text-align: justify;&quot;&gt;
 </description>
         <pubDate>Tue, 24 Dec 2013 04:12:02 -0500</pubDate>
-        <link>http://blog.pbdesk.com/myprojects/rewriting-pbdesk-com</link>
-        <guid isPermaLink="true">http://blog.pbdesk.com/myprojects/rewriting-pbdesk-com</guid>
+        <link>http://blog.pbdesk.com/my-projects/rewriting-pbdesk-com</link>
+        <guid isPermaLink="true">http://blog.pbdesk.com/my-projects/rewriting-pbdesk-com</guid>
         
         <category>AngularJS</category>
         
@@ -383,7 +383,7 @@ SmtpServer.Send(mail);
         <category>WebAPI</category>
         
         
-        <category>MyProjects</category>
+        <category>my-projects</category>
         
       </item>
     
