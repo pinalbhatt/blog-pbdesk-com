@@ -9,26 +9,40 @@ layout: default
 
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline" style="display: none">{{ page.title }}</h1>
-        <p class="post-meta">
-          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-          {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
-          <span class="pull-right"><a href="#" ><i class="fa fa-bookmark"></i> {{page.categories[0]}}</a></span>
-        </p>
-        <hr/>
       </header>
 
       <div class="post-content" itemprop="articleBody">
         {{ content }}
       </div>
-
+        <hr/>
+        <p class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+            {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
+            <span class="pull-right"><a href="#" ><i class="fa fa-bookmark"></i> {{page.categories[0]}}</a></span>
+        </p>
+        <hr/>
     </article>
     <div class="row">
       {% include Ad/before-comments-responsive-ad.html %}
     </div>
+
     {% include disqus.html %}
 
   </div>
   <div class="col-md-4">
+      <div class="alert alert-danger" role="alert">
+          <p><a href="#" ><i class="fa fa-bookmark"></i> {{page.categories[0]}}</a></p>
+      </div>
+      <div class="alert alert-info" role="alert">
+          <p> <i class="fa fa-tags"></i> <b>Tags:</b>
+              <br/>
+              {% for tag in page.tags %}
+              <a class="a-c" href="/tag/{{tag}}"><i class="fa fa-tag"></i> {{tag}}</a>
+              {% endfor %}
+          </p>
+      </div>
+
+
     <div style="padding-left: 25px">
       {% include Ad/180x150.html %}
     </div>
