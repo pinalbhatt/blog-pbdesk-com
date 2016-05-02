@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Pinal Bhatt’s Blog - Learning endeavor for ever…</title>
-  <meta name="description" content="Welcome to my own Blog! On this site you'll find interesting posts and links on Microsoft.Net, ASP.NET, C#, VB.Net, Silverlight, JavaScript, Design Patterns ...">
+  <title>Using ES6 in NodeJS</title>
+  <meta name="description" content="    Now that ES6 (officially ES2015) is out, its time that every JavaScript programmer should start using new language features.    Still most of the browser...">
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="/assets/css/mdb.min.css">
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://blog.pbdesk.com/programming/pinal-bhatts-blog-learning-endeavor-for-ever-2">
+  <link rel="canonical" href="http://blog.pbdesk.com/nodejs/Using-ES6-In-NodeJS">
   <link rel="alternate" type="application/rss+xml" title="Pinal Bhatt's Blog" href="http://blog.pbdesk.com/feed.xml">
 </head>
 
@@ -65,7 +65,7 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header h2-responsive">Pinal Bhatt’s Blog - Learning endeavor for ever…</h2>
+        <h2 class="page-header h2-responsive">Using ES6 in NodeJS</h2>
     </div>
 </div>
 
@@ -74,36 +74,59 @@
     <article  itemscope itemtype="http://schema.org/BlogPosting">
 
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline" style="display: none">Pinal Bhatt’s Blog - Learning endeavor for ever…</h1>
+        <h1 class="post-title" itemprop="name headline" style="display: none">Using ES6 in NodeJS</h1>
       </header>
 
       <div class="post-content" itemprop="articleBody">
-        <p>Welcome to my own Blog! </p>
-<p style="margin-top: -20px" align="justify">On this site you'll find interesting posts and links on Microsoft.Net, ASP.NET, C#, VB.Net, Silverlight, JavaScript, Design Patterns and other random thoughts and opinions.</p>
-<p>To know more about myself, visit <a href="http://pinal-bhatt.blogspot.com/2009/01/about-author.html">My Profile</a>. And for any feedbacks, suggestions and compliments write to me at <a href="mailto:self@p-bhatt.com">self@p-bhatt.com</a> or <a href="http://pinal-bhatt.blogspot.com/2009/01/your-comments.html">put in here</a>. Or you can use <a href="http://www.p-bhatt.com/2009/01/contact-me.html">contact the Author</a> link.</p>
-<div>
-<div>Featured Posts</div>
-<div>
-<ul>
-<li><a href="http://www.p-bhatt.com/2009/03/uploading-files-to-ftp-server-using.html">Uploading files to FTP server using ASP.Net</a>. (using FileUpload Server Control) </li>
-<li><a href="http://www.p-bhatt.com/2009/02/what-is-minified-javascript.html">What is minified JavaScript?</a> </li>
-<li><a href="http://www.p-bhatt.com/2009/02/using-jquery-ui-theme-in-bloggercom.html">Using jQuery UI Theme in Blogger/Blogspot</a>. </li>
-<li><a href="http://www.p-bhatt.com/2009/01/tools-utilites.html">Tools &amp; Utilities for developers</a>. </li>
-<li><a href="http://www.p-bhatt.com/2007/12/net-tutorial-index.html">Common JavaScript Utilities</a>. </li>
-<li><a href="http://www.p-bhatt.com/2009/01/tools-utilites.html">Tools &amp; Utilities for Developers</a>. </li>
-</ul>
-<p style="margin-top: -10px" align="justify">Check out for more featured posts/articles on this site including technical &amp;&#160; non-technical articles and knowledge updates at <a href="http://pinal-bhatt.blogspot.com/2009/01/articles-center.html">Featured Posts</a></p>
-</p></div>
-</p></div>
-<p>Checkout my aggregated online web activities at “<a href="http://www.p-bhatt.com/2009/09/pinal-bhatt-online-my-aggregated-web.html">Pinal Bhatt Online</a>” and my twitter tweets at “<a href="http://www.p-bhatt.com/2009/06/twitter-tweets_05.html">Twitter Tweets by Pinal Bhatt</a>”. If you like my posts you can subscribe to <a href="http://www.p-bhatt.com/feeds/posts/default?alt=rss" target="_blank">RSS feeds</a> and bookmark it or share it with the links available.<span style="font-size: 85%">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></p>
-<p>The whole purpose of this blog and site is to share my views and ideas with the world and not to hurt anybody’s feelings. Please read the <a href="http://www.p-bhatt.com/2009/01/disclaimer.html">Disclaimer</a>.</p>
+        <p>
+    Now that ES6 (officially <a href="http://www.ecma-international.org/ecma-262/6.0/" target="_blank">ES2015</a>) is out, its time that every JavaScript programmer should start using new language features.
+</p>
+<p>
+    Still most of the browsers are still not fully supporting ES6 features but using transpilers like Bable or TypeScript programmers can start using these ES6 features and transpile them to ES5 to support browsers.
+    But for server side development using NodeJS, if you are already on version 4 or above lot many ES6 features are natively supported out of the box and many other are supported using some run time flags.
+</p>
+<blockquote>
+    <p>You can find more about ES6 support for NodeJS at <a href="https://nodejs.org/en/docs/es6/" target="_blank">https://nodejs.org/en/docs/es6/</a> </p>
+</blockquote>
+<p>
+    With every release of NodeJS support for ES6 features is increasing. You can find version specific ES6 features supported by NodeJS as <a href="http://node.green" target="_blank">node.green</a>
+</p>
+<p>Here are links to very good series of posts from Scotch.IO for using ES6 features in NodeJS</p>
+<div class="col-md-12">
+    <div class="card hoverable">
+        <div class="card-content">
+
+            <p><a target="_blank" href="https://scotch.io/tutorials/better-node-with-es6-pt-i" >Better Node with ES6, Part-1.</a> Basic & Popular Features</p>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12">
+    <div class="card hoverable">
+        <div class="card-content">
+
+            <p><a target="_blank" href="https://scotch.io/tutorials/better-javascript-with-es6-pt-ii-a-deep-dive-into-classes" >Better Node with ES6, Part-2</a>. A Deep Dive into Classes</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-md-12">
+    <div class="card hoverable">
+        <div class="card-content">
+            <p><a target="_blank" href="https://scotch.io/tutorials/better-javascript-with-es6-pt-iii-cool-collections-slicker-strings" >Better Node with ES6, Part-3</a>. Cool Collections & Slicker Strings</p>
+        </div>
+    </div>
+</div>
+
+<br/>
 
       </div>
         <hr/>
         <p class="post-meta">
-            <time datetime="2009-02-26T20:47:00-05:00" itemprop="datePublished">Feb 26, 2009</time>
-             • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{"login"=>"pbadmin", "email"=>"pinalbhatt@gmail.com", "display_name"=>"PBDesk Admin", "first_name"=>"Pinal", "last_name"=>"Bhatt"}</span></span>
-            <span class="pull-right"><a href="#" ><i class="fa fa-bookmark"></i> Programming</a></span>
+            <time datetime="2016-04-14T17:30:08-04:00" itemprop="datePublished">Apr 14, 2016</time>
+            
+            <span class="pull-right"><a href="#" ><i class="fa fa-bookmark"></i> nodejs</a></span>
         </p>
         <hr/>
     </article>
@@ -126,8 +149,8 @@
     <script>
 
          var disqus_config = function () {
-         this.page.url = "http://blog.pbdesk.com/programming/pinal-bhatts-blog-learning-endeavor-for-ever-2"; // Replace PAGE_URL with your page's canonical URL variable
-         this.page.identifier = "pinal-bhatts-blog-learning-endeavor-for-ever-2"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+         this.page.url = "http://blog.pbdesk.com/nodejs/Using-ES6-In-NodeJS"; // Replace PAGE_URL with your page's canonical URL variable
+         this.page.identifier = "Using-ES6-In-NodeJS"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
          };
 
         (function() { // DON'T EDIT BELOW THIS LINE
@@ -146,11 +169,17 @@
   </div>
   <div class="col-md-4">
       <div class="alert alert-danger" role="alert">
-          <p><a href="#" ><i class="fa fa-bookmark"></i> Programming</a></p>
+          <p><a href="#" ><i class="fa fa-bookmark"></i> nodejs</a></p>
       </div>
       <div class="alert alert-info" role="alert">
           <p> <i class="fa fa-tags"></i> <b>Tags:</b>
               <br/>
+              
+              <a class="a-c" href="/tag/NodeJS"><i class="fa fa-tag"></i> NodeJS</a>
+              
+              <a class="a-c" href="/tag/ES6"><i class="fa fa-tag"></i> ES6</a>
+              
+              <a class="a-c" href="/tag/JavaScript"><i class="fa fa-tag"></i> JavaScript</a>
               
           </p>
       </div>
@@ -182,24 +211,6 @@
 </div>
 <div class="row">
   
-<div class="col-md-4 post-card-container">
-    <div class="card hoverable">
-
-    <div class="card-content">
-        <p><i class="fa fa-calendar"></i> Apr 14, 2016
-            <a href="#" class="pull-right"><i class="fa fa-bookmark"></i> nodejs</a>
-        </p>
-        <p class="h5-responsive" style="text-align: left"><a class="post-link"
-                                                             href="/nodejs/Using-ES6-In-NodeJS">Using ES6 in NodeJS</a></p>
-        <p>Now that ES6 (officially ES2015) is out, its time that every JavaScript programmer should start using new language features. Still...</p>
-        <p><i class="fa fa-tags"></i> <span class=""><a class="a-c"
-                                                                                  href="/tag/NodeJS">NodeJS</a> </span><span class=""><a class="a-c"
-                                                                                  href="/tag/ES6">ES6</a> </span><span class=""><a class="a-c"
-                                                                                  href="/tag/JavaScript">JavaScript</a> </span></p>
-    </div>
-</div>
-</div>
-
 <div class="col-md-4 post-card-container">
     <div class="card hoverable">
 
@@ -288,6 +299,24 @@
         <p><i class="fa fa-tags"></i> <span class=""><a class="a-c"
                                                                                   href="/tag/CSharp">CSharp</a> </span><span class=""><a class="a-c"
                                                                                   href="/tag/CodeSnippet">CodeSnippet</a> </span></p>
+    </div>
+</div>
+</div>
+
+<div class="col-md-4 post-card-container">
+    <div class="card hoverable">
+
+    <div class="card-content">
+        <p><i class="fa fa-calendar"></i> Aug 24, 2014
+            <a href="#" class="pull-right"><i class="fa fa-bookmark"></i> nodejs</a>
+        </p>
+        <p class="h5-responsive" style="text-align: left"><a class="post-link"
+                                                             href="/nodejs/unit-testing-node-js-with-mocha">Unit Testing Node.JS With Mocha</a></p>
+        <p>My google research for "node js mocha tutorial" 1. Official web site for Mocha simple, flexible, fun. Mocha is a feature-rich...</p>
+        <p><i class="fa fa-tags"></i> <span class=""><a class="a-c"
+                                                                                  href="/tag/JavaScript">JavaScript</a> </span><span class=""><a class="a-c"
+                                                                                  href="/tag/NodeJS">NodeJS</a> </span><span class=""><a class="a-c"
+                                                                                  href="/tag/Programming">Programming</a> </span></p>
     </div>
 </div>
 </div>
