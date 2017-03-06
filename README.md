@@ -1,2 +1,2 @@
 # blog-pbdesk-com
-blog.PBDesk.com
+t2.PBDesk.com
